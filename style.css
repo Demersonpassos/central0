@@ -14,6 +14,7 @@
   
   
 :root{
+    --cor:rgb(255, 255, 255);
     --cor1: #F2F2F2;
     --cor2: rgba(218, 195, 241, 0.753);
     --cor3: rgba(130, 45, 221, 0.658);
@@ -101,49 +102,52 @@ nav{
 }
 .container{
     display:flex;
-    background-image: linear-gradient(to right , var(--cor2), var(--cor1));
+    background-image: linear-gradient(to right , var(--cor1), var(--cor0));
     flex-wrap: wrap;
     margin-top: 100px;
     border: 2px solid rgba(0, 0, 0, 0.938);
+    padding: 0px 30px 0px 0px;
 }
 .container2{
     display:flex;
     background-image: linear-gradient(to right , var(--cor2), var(--cor1));
-    border: 2px solid rgba(0, 0, 0, 0.623);
+    border: 2px solid rgba(0, 0, 0, 0.582);
+    padding: 0px 30px 0px 0px;
 }
 .container3{
     display:flex;
-    background-image: linear-gradient(to right , var(--cor2), var(--cor1));
+    background-image: linear-gradient(to right , var(--cor1), var(--cor0));
     border: 2px solid rgba(0, 0, 0, 0.514);
+    padding: 0px 30px 0px 0px;
 }
 .container4{
     display:flex;
     background-image: linear-gradient(to right , var(--cor2), var(--cor1));
     border: 2px solid rgba(0, 0, 0, 0.562);
-    padding: 0px 0px 80px 0px;
+    padding: 0px 30px 80px 0px;
 }
 .externa{
     background-color: var(--cor2);
     flex: 1;
-    border: 1px solid rgba(97, 97, 97, 0.637);
+    border: 1px solid rgba(97, 97, 97, 0);
     height: 200px;
     margin: 20px; 
     display: flex;  
     justify-content: center;
     align-items: flex-start; 
     border-radius: 20px;
-    padding: 0px 0px 30px 0px;
+    /*padding: 0px 0px 30px 0px;*/
     position: relative;
 }
 
 .interna{
     background-color: var(--cor3);
-    border: 2px solid var(--cor6);
+    border: 2px solid var(--cor4);
     width: 200px;
     height:200px;
     padding: 10px;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 5px 5px 20px 5px;
     text-align: center;
 }
 img{
@@ -162,7 +166,7 @@ img{
     bottom: 0;
     margin-top: auto;
     text-align: auto;
-    padding: 5px ;
+    padding: 3px ;
     color: var(--cor6);
     font-size:20px;
     font-family: var(--font2);
@@ -171,6 +175,7 @@ img{
     border-radius: 0px 20px 20px 20px;
     width:180px; 
     height: 25px; 
+    
    
 }
 
@@ -209,12 +214,18 @@ h1{
     
 }
 h2{
-    margin: auto;
-    padding: 20px 0px 20px 0px;
+    margin:auto;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 20px;
     color: var(--cor9); 
     font-family: var(--font3);
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.473);
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.747);
     font-size: 2em;
+    width: 300px;
+    background-image: linear-gradient(to right, rgb(209, 173, 245),var(--cor1));
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
 
 }
 
@@ -226,9 +237,6 @@ h2{
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.664);
 }
 
-h2 {
-    width: 200px;
-}
 a{
     text-decoration: none;
 }
