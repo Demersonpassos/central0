@@ -24,7 +24,7 @@
     --cor8:rgb(165, 160, 160);
     --cor9:rgb(52, 17, 90);
     --cor10:rgba(68, 23, 116, 0.575);
-    --cor11:rgba(255, 194, 26, 0.863);
+    --cor11:rgba(255, 194, 26, 0.986);
     --cortranp:rgba(82, 81, 81, 0.377);
     --font1:"Bebas Neue", sans-serif;
     --font2:"Titillium Web", sans-serif;
@@ -97,8 +97,8 @@ nav{
     justify-content: center;
     align-items: flex-start; 
     border-radius: 20px;
-    padding: 0px 0px 20px 0px;
-   
+    padding: 0px 0px 30px 0px;
+    position: relative;
 }
 
 .interna{
@@ -109,6 +109,7 @@ nav{
     padding: 10px;
     box-sizing: border-box;
     border-radius: 20px;
+    text-align: center;
 }
 img{
     max-width:100%;
@@ -122,7 +123,8 @@ img{
     
 }
 .texto{
-    
+    position: absolute;
+    bottom: 0;
     margin-top: auto;
     text-align: center;
     padding: 7px;
