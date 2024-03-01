@@ -160,7 +160,6 @@ img{
     border-radius:30px;
     pointer-events: none;
     
-    
 }
 .texto{
     position: absolute;
@@ -230,12 +229,9 @@ h2{
 
 }
 
-img :hover{
-    border-radius: 40px;
-}
 
 .container, .externa:hover{
-    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.664);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.979);
     
 }
 
@@ -262,4 +258,9 @@ nav > a > .erp:hover{
     background-color: rgb(165, 68, 4);
     text-shadow: 0px 0px 0px 7px black;
     color: var(--cor9); 
+}
+.externa:hover .interna  img{
+    filter: opacity(85%); /* Define a transparência da imagem */
+    transform: scale(105%); /* Aumenta um pouco o tamanho da imagem */
+
 }
