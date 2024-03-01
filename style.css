@@ -189,11 +189,16 @@ img{
     background-color: rgb(9, 168, 9);
     color: var(--cor1);
     border-radius:0px 0px 0px 20px;
-    margin:0px 5px 0px 50px ;
-    
+    margin:0px 2px 0px 50px ;
+}
+.boot{
+    background-color: rgb(14, 93, 212);
+    color: var(--cor1);
+    border-radius:0px;
+    margin:0px 2px 0px 0px ; 
 
 }
-.erp , .zap {
+.erp , .zap , .boot {
     font-weight: bold;
     padding: 7px ;
     font-family: var(--font2);
@@ -250,17 +255,26 @@ footer{
     font-family: var(--font1); /* Define a fonte especificada */
 }
 nav > a > .zap:hover{
-    background-color: rgb(8, 126, 8);
-    text-shadow: 0px 0px 0px 7px black;
-    color: var(--cor9); 
+    background-color: rgb(18, 216, 18);
+    text-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.377);
+    color: var(--cor9);
+    transform: scale(105%); 
+    transform: scale(102%); /* Aumenta um pouco o tamanho da imagem */
 }
 nav > a > .erp:hover{
-    background-color: rgb(165, 68, 4);
-    text-shadow: 0px 0px 0px 7px black;
+    background-color: rgb(245, 105, 11);
+    text-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.39);
     color: var(--cor9); 
+    transform: scale(102%); /* Aumenta um pouco o tamanho da imagem */
+}
+nav > a > .boot:hover{
+    background-color: rgb(30, 113, 238);
+    text-shadow: 0px 0px 0px 7px rgba(0, 0, 0, 0.308);
+    color: var(--cor9);
+    transform: scale(102%); /* Aumenta um pouco o tamanho da imagem */ 
 }
 .externa:hover .interna  img{
     filter: opacity(85%); /* Define a transparência da imagem */
-    transform: scale(105%); /* Aumenta um pouco o tamanho da imagem */
+    transform: scale(102%); /* Aumenta um pouco o tamanho da imagem */
 
 }
