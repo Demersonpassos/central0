@@ -230,11 +230,10 @@ h2{
 
 }
 
-.interna :hover{
-    box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.822); 
-    background-color: var(--cor2);
-    
+img :hover{
+    border-radius: 40px;
 }
+
 .container, .externa:hover{
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.664);
     
