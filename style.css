@@ -42,11 +42,17 @@
         flex-direction: column; /* Altera a direção do flexbox para coluna */
         align-items: center; /* Centraliza os itens */
     }
+    /*
     .externa {
-        width: 90%; /* Define a largura do item externo */
+        width: 90%; 
     }
     .interna {
-        width: 100%; /* Define a largura da parte interna */
+        width: 100%; 
+    }
+    */
+    .externa, .interna{
+        height: auto;
+        
     }
     h2 {
         width: 100%; /* Define a largura total para os títulos */
@@ -128,10 +134,10 @@ nav{
 }
 
 .externa{
-    
+    max-width: 150px;
     flex: 1;
     border: 0px solid rgba(169, 11, 231, 0);
-    height: 200px;
+    /*height: 200px;*/
     margin: 20px; 
     display: flex;  
     justify-content: center;
@@ -143,9 +149,9 @@ nav{
 
 
 .interna{
+    max-width: 150px;
     background-image: linear-gradient(to right, rgb(88, 87, 87), rgb(172, 170, 170));
-    width: 200px;
-    height:200px;
+    height:150px;
     padding: 0px;
     box-sizing: border-box;
     border-radius: 30px;
@@ -170,15 +176,17 @@ img{
     bottom: 0;
     margin-top: auto;
     text-align: auto;
-    padding: 3px ;
+    padding: 4px;
     color: var(--cor6);
-    font-size:20px;
+    font-size:18px;
     font-family: var(--font2);
     background-color:var(--cor11);
     pointer-events: none;
     border-radius: 0px 20px 20px 20px;
-    width:180px; 
-    height: 25px; 
+    max-width: 200px; 
+    height: 23px; 
+    margin:0px ;
+    width: 150px;
     
    
 }
