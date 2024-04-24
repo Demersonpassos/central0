@@ -37,10 +37,14 @@
     }
     nav {
         top: 70px; /* Ajusta a posição da navegação */
+        
     }
     .container, .container2, .container3, .container4 {
         flex-direction: column; /* Altera a direção do flexbox para coluna */
         align-items: center; /* Centraliza os itens */
+    }
+    abbr[title]{
+        text-decoration: none;
     }
     /*
     .externa {
@@ -203,6 +207,7 @@ img{
     color: var(--cor1);
     border-radius:0px 0px 0px 20px;
     margin:0px 2px 0px 50px ;
+    
 }
 .boot{
     background-color: rgb(14, 93, 212);
