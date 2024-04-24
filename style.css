@@ -33,7 +33,7 @@
 }
 @media screen and (max-width: 500px) {
     header {
-        padding: 5px; /* Reduz o preenchimento do cabeçalho */
+        padding: 70px; /* Reduz o preenchimento do cabeçalho */
     }
     nav {
         top: 70px; /* Ajusta a posição da navegação */
