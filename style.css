@@ -292,9 +292,17 @@ body {
         color: var(--cor9);
         transform: scale(95%); /* diminui um pouco o tamanho da imagem */ 
     }
+    .externa:hover{
+        border-color: rgba(255, 110, 26, 0.986);
+        border-width: 10px;
+    }
+
     .externa:hover .interna  img{
         filter: opacity(75%); /* Define a transparência da imagem */
         transform: scale(87%); /* Aumenta um pouco o tamanho da imagem */
+
+        border-color: rgba(255, 110, 26, 0.986);
+        border-width: 10px;
     
     }
     
@@ -335,7 +343,7 @@ header {
     margin: 0 50px;
     font-weight: 600;
 }
-.marquee p::before{
+.marquee .fot::before{
     content: "⚠️"; /* Emoji de alerta */
      font-size: 1.2em; /* Ajuste o tamanho conforme necessário */
      margin-right: 10px; /* Espaço entre o emoji e o texto */
